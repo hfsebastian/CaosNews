@@ -8,9 +8,6 @@ header{
 	color: white;
 }
 
-.user-account {
-	width: 10px;
-}
 
 .website-header{
 	padding: 20px;
@@ -209,6 +206,16 @@ p{
 	font-weight: bold;
 	margin: auto;
 }
+
+.contact-container{
+	position: absolute;
+    right: 10%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #000;
+}
+
 .social-links{
 	display: flex;
 	flex-wrap: wrap;
@@ -222,9 +229,7 @@ p{
 	font-size: 37px;
 	padding: 5px;
 }
-.instagram img{
-	padding: 5px;
-}
+
 .footer-buttons{
 	display: block;
 	border: 1px solid #2196f3;
@@ -247,6 +252,29 @@ p{
 	color: #fff;
 	padding: 5px;
 	text-align: center;
+}
+
+.form-container{
+    position: absolute;
+	width: 50%;
+	left:25%;
+	top: 10%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px #000;
+    
+}
+
+.profile-icon{
+	position: absolute;
+	top: 4%;
+	left: 3%;
+	padding-left: 10px;
+}
+.back-icon {
+	position: absolute;
+	top: 4%;
 }
 @media only screen and (max-width: 600px) {
 	.breaking-news-section{	

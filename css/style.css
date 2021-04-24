@@ -1,7 +1,7 @@
 body{
 	padding: 0;
 	margin: 0;
-	font-family: 'Poppins', sans-serif;;
+	font-family: 'Poppins', sans-serif;
 }
 header{	
 	background-color: black;
@@ -50,13 +50,14 @@ nav ul{
 	text-decoration: none;
 	font-size: 16px;
 	text-transform: uppercase;
-	font-weight: bolder;
+	font-weight: 600;
+	letter-spacing: 2px;
 }
 .navbar-nav li a:hover{
 	color:#e08b6c;
 }
-.brand:hover{
-    color:#e08b6c;
+.brand{
+    color:#e7470d;
     cursor: pointer;
 }
 .breaking-news-section{
@@ -98,13 +99,10 @@ nav ul{
 	color: #fff;
 }
 #featured h2{
-	background-color: black;
+	background-color: rgb(14, 12, 12)
 }
 #latest h2{
 	background-color: darkred;
-}
-#our-picks h2{
-	background-color: darkblue;
 }
 #featured{
 	flex: 2;
@@ -208,11 +206,10 @@ p{
 }
 
 .contact-container{
-	position: absolute;
-    right: 10%;
+    position: absolute;
     background-color: #fff;
     padding: 30px;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0px 0px 10px #000;
 }
 

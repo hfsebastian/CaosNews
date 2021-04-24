@@ -1,0 +1,43 @@
+.center{
+    text-align: center;
+    border: 3px blue;
+    padding: 10px;
+}
+.centerr{
+    text-align: center;
+    border: 3px;
+    padding: 5px;
+
+
+}
+
+
+body{
+    margin: 0.;
+    padding: 0;
+}
+a:hover{
+    color: rgb(247, 11, 11);
+}
+
+.Ncenter{
+    text-align: center;
+    border: 3px;
+    padding: 5px;
+
+}
+h1{color:black;}
+
+.Pcenter
+{
+    text-align: center;
+    border: 15px;
+    padding: 15px;
+
+
+}
+
+.contenedor{
+    width: 70%;
+    margin-left: auto;
+}
